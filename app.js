@@ -31,7 +31,7 @@
 	});
 
 	app.use("/", (req,res,next)=>{
-		res.status(200).json("Sample API");
+		res.status(200).json("Sample API local commit");
 	});
 
 	app.use((req, res, next) => {
