@@ -29,7 +29,7 @@
 		}
 		next();
 	});
-	console.log("sampleAPIProject 4");
+	console.log("sampleAPIProject 5");
 	app.use("/", (req,res,next)=>{
 		res.status(200).json("Sample API local commit");
 	});
